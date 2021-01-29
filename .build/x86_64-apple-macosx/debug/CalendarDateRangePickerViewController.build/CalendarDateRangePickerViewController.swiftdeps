@@ -1,0 +1,22 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CalendarDateRangePickerViewController"
+provides-nominal:
+- "37CalendarDateRangePickerViewControllerAAV"
+provides-member:
+- ["37CalendarDateRangePickerViewControllerAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CalendarDateRangePickerViewController"
+- "StringLiteralType"
+depends-member:
+- ["37CalendarDateRangePickerViewControllerAAV", "init"]
+- ["37CalendarDateRangePickerViewControllerAAV", "text"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "37CalendarDateRangePickerViewControllerAAV"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/module.modulemap"
+interface-hash: "1776bcdaf79c3eea91e095ea53984d26"

@@ -1,0 +1,19 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/francesco\/Developer\/fc\/CalendarDateRangePickerViewController\/.build\/x86_64-apple-macosx\/debug\/CalendarDateRangePickerViewControllerPackageTests.xctest\/Contents\/MacOS\/CalendarDateRangePickerViewControllerPackageTests",
+      "packageName" : "CalendarDateRangePickerViewController",
+      "productName" : "CalendarDateRangePickerViewControllerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.CalendarDateRangePickerViewController-debug.module" : "CalendarDateRangePickerViewController",
+    "C.CalendarDateRangePickerViewControllerTests-debug.module" : "CalendarDateRangePickerViewControllerTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

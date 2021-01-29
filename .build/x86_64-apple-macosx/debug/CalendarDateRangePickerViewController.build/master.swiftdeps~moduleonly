@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "b95abf75242e4d0572d6a1897e6a42c2"
+build_time: [1611911729, 104462000]
+inputs:
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Sources/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.swift": [1611911724, 831789295]

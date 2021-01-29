@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/master.swiftdeps"
+  },
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Sources/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.swift": {
+    "dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.d",
+    "object": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.swift.o",
+    "swiftmodule": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.swiftdeps"
+  }
+}

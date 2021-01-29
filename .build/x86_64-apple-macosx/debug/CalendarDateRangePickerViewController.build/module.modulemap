@@ -1,0 +1,4 @@
+module CalendarDateRangePickerViewController {
+    header "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController-Swift.h"
+    requires objc
+}

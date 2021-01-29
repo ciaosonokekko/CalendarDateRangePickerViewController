@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "CalendarDateRangePickerViewController-debug.module": ["<CalendarDateRangePickerViewController-debug.module>"]
+  "CalendarDateRangePickerViewControllerPackageTests-debug.test": ["<CalendarDateRangePickerViewControllerPackageTests-debug.test>"]
+  "CalendarDateRangePickerViewControllerTests-debug.module": ["<CalendarDateRangePickerViewControllerTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<CalendarDateRangePickerViewController-debug.module>"]
+  "test": ["<CalendarDateRangePickerViewController-debug.module>","<CalendarDateRangePickerViewControllerPackageTests-debug.test>","<CalendarDateRangePickerViewControllerTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Sources/CalendarDateRangePickerViewController/":
+    is-directory-structure: true
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/":
+    is-directory-structure: true
+commands:
+  "<CalendarDateRangePickerViewController-debug.module>":
+    tool: phony
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.swiftmodule"]
+    outputs: ["<CalendarDateRangePickerViewController-debug.module>"]
+
+  "<CalendarDateRangePickerViewControllerPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerPackageTests.xctest/Contents/MacOS/CalendarDateRangePickerViewControllerPackageTests"]
+    outputs: ["<CalendarDateRangePickerViewControllerPackageTests-debug.test>"]
+
+  "<CalendarDateRangePickerViewControllerTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.swiftmodule"]
+    outputs: ["<CalendarDateRangePickerViewControllerTests-debug.module>"]
+
+  "C.CalendarDateRangePickerViewController-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Sources/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.swift"]
+    outputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "CalendarDateRangePickerViewController"
+    module-output-path: "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.swiftmodule"
+    import-paths: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build"
+    objects: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController-Swift.h","-color-diagnostics"]
+    sources: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Sources/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "C.CalendarDateRangePickerViewControllerPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.build/CalendarDateRangePickerViewController.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerPackageTests.xctest/Contents/MacOS/CalendarDateRangePickerViewControllerPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerPackageTests.xctest/Contents/MacOS/CalendarDateRangePickerViewControllerPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug","-o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerPackageTests.xctest/Contents/MacOS/CalendarDateRangePickerViewControllerPackageTests","-module-name","CalendarDateRangePickerViewControllerPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.15","-Xlinker","-add_ast_path","-Xlinker","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.CalendarDateRangePickerViewControllerTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/CalendarDateRangePickerViewControllerTests.swift","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/XCTestManifests.swift","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewController.swiftmodule"]
+    outputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "CalendarDateRangePickerViewControllerTests"
+    module-output-path: "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.swiftmodule"
+    import-paths: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build"
+    objects: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.swift.o","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.15","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/CalendarDateRangePickerViewControllerTests.swift","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Sources/CalendarDateRangePickerViewController/","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Package.swift","/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

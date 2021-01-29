@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/master.swiftdeps"
+  },
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/CalendarDateRangePickerViewControllerTests.swift": {
+    "dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.d",
+    "object": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.swift.o",
+    "swiftmodule": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/CalendarDateRangePickerViewControllerTests.swiftdeps"
+  },
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/XCTestManifests.swift": {
+    "dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.d",
+    "object": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/.build/x86_64-apple-macosx/debug/CalendarDateRangePickerViewControllerTests.build/XCTestManifests.swiftdeps"
+  }
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "c1a3d831ee1cdcd83921c847538ac178"
+build_time: [1611911736, 243120000]
+inputs:
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/CalendarDateRangePickerViewControllerTests.swift": [1611911724, 832497058]
+  "/Users/francesco/Developer/fc/CalendarDateRangePickerViewController/Tests/CalendarDateRangePickerViewControllerTests/XCTestManifests.swift": [1611911724, 832684805]
